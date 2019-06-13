@@ -1,6 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 import Feed from './pages/Feed';
 import New from './pages/New';
+import React from 'react';
 
 function Routes() {
     return (
@@ -10,3 +11,5 @@ function Routes() {
         </Switch>
     );
 };
+
+export default Routes;
